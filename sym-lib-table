@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SabVol-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/SabVol-eagle-import.lib")(options "")(descr ""))
+  (lib (name "SabVolAudio-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/SabVolAudio-eagle-import.lib")(options "")(descr ""))
+  (lib (name "SabVol-rescue")(type "KiCad")(uri "${KIPRJMOD}/SabVol-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "SabVolAudio-rescue")(type "KiCad")(uri "${KIPRJMOD}/SabVolAudio-rescue.kicad_sym")(options "")(descr ""))
+)

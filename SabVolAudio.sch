@@ -1,0 +1,1142 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4950 3500 4250 3500
+Wire Wire Line
+	4250 3500 4250 4100
+Wire Wire Line
+	4950 3600 4750 3600
+Wire Wire Line
+	4750 3600 4750 4100
+Wire Wire Line
+	4950 3700 4950 4000
+Wire Wire Line
+	4950 4000 5250 4000
+Wire Wire Line
+	5250 4000 5250 4100
+Wire Wire Line
+	4750 4400 4750 4600
+Wire Wire Line
+	4750 4600 5050 4600
+Wire Wire Line
+	5050 4600 5250 4600
+Wire Wire Line
+	5250 4600 5250 4400
+Connection ~ 5050 4600
+Wire Wire Line
+	6550 3600 7050 3600
+Wire Wire Line
+	7050 3600 7050 4100
+Wire Wire Line
+	6550 3700 6650 3700
+Wire Wire Line
+	6650 3700 6650 4100
+Wire Wire Line
+	6650 4100 6550 4100
+Wire Wire Line
+	6550 4400 6550 4600
+Wire Wire Line
+	6550 4600 6850 4600
+Wire Wire Line
+	6850 4600 7050 4600
+Wire Wire Line
+	7050 4600 7050 4400
+Connection ~ 6850 4600
+Wire Wire Line
+	5350 1900 5350 2000
+Wire Wire Line
+	5350 2000 4950 2000
+Wire Wire Line
+	4950 2000 4950 2400
+Wire Wire Line
+	4850 1900 4850 2500
+Wire Wire Line
+	4850 2500 4950 2500
+Wire Wire Line
+	4250 1900 4250 2600
+Wire Wire Line
+	4250 2600 4950 2600
+Wire Wire Line
+	4850 1600 4850 1500
+Wire Wire Line
+	4850 1500 5150 1500
+Wire Wire Line
+	5150 1500 5350 1500
+Wire Wire Line
+	5350 1500 5350 1600
+Wire Wire Line
+	5150 1400 5150 1500
+Connection ~ 5150 1500
+Wire Wire Line
+	6750 1900 6750 2400
+Wire Wire Line
+	6750 2400 6550 2400
+Wire Wire Line
+	7250 1900 7250 2500
+Wire Wire Line
+	7250 2500 6550 2500
+Wire Wire Line
+	6750 1600 6750 1500
+Wire Wire Line
+	6750 1500 6950 1500
+Wire Wire Line
+	6950 1500 7250 1500
+Wire Wire Line
+	7250 1500 7250 1600
+Wire Wire Line
+	6950 1400 6950 1500
+Connection ~ 6950 1500
+Text Label 1900 3850 0    10   ~ 0
+GND
+Text Label 3950 3900 0    10   ~ 0
+GND
+Text Label 5050 5000 0    10   ~ 0
+GND
+Text Label 6850 5000 0    10   ~ 0
+GND
+Text Label 10950 4750 0    10   ~ 0
+GND
+Wire Wire Line
+	8250 1500 8250 1600
+Text Label 8250 1500 0    10   ~ 0
+GND
+Text Label 4950 3100 0    10   ~ 0
+GND
+Text Label 6550 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	6950 1000 6950 900 
+Wire Wire Line
+	5150 1000 5150 900 
+Wire Wire Line
+	4250 1600 4250 900 
+Wire Wire Line
+	5150 900  4250 900 
+Connection ~ 5150 900 
+Text Label 6950 1000 0    10   ~ 0
+GND
+Wire Wire Line
+	8750 1300 8750 1100
+Wire Wire Line
+	8250 1100 8250 1200
+Text Label 6550 3200 0    10   ~ 0
+VCC
+$Comp
+L SabVolAudio-eagle-import:PT2322-S U2
+U 1 1 94FABF20
+P 5750 3000
+F 0 "U2" H 5150 3800 59  0000 L BNN
+F 1 "PT2322-S" H 5150 3900 59  0000 L BNN
+F 2 "Package_SO:SOP-28_7.5x15.4mm_P1.27mm" H 5750 3000 50  0001 C CNN
+F 3 "" H 5750 3000 50  0001 C CNN
+	1    5750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C5
+U 1 1 E7D47EA7
+P 2450 2000
+F 0 "C5" H 2495 2019 59  0000 L BNN
+F 1 "10uF" H 2495 1819 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2450 2000 50  0001 C CNN
+F 3 "" H 2450 2000 50  0001 C CNN
+	1    2450 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C3
+U 1 1 8350CC17
+P 2450 2600
+F 0 "C3" H 2495 2619 59  0000 L BNN
+F 1 "10uF" H 2495 2419 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2450 2600 50  0001 C CNN
+F 3 "" H 2450 2600 50  0001 C CNN
+	1    2450 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C13
+U 1 1 C3EA450F
+P 3950 3700
+F 0 "C13" H 3995 3719 59  0000 L BNN
+F 1 "10uF" H 3995 3519 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 3950 3700 50  0001 C CNN
+F 3 "" H 3950 3700 50  0001 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C12
+U 1 1 487BCAB4
+P 9050 2850
+F 0 "C12" H 9095 2869 59  0000 L BNN
+F 1 "10uF" H 9095 2669 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9050 2850 50  0001 C CNN
+F 3 "" H 9050 2850 50  0001 C CNN
+	1    9050 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C7
+U 1 1 607D4452
+P 9050 4250
+F 0 "C7" H 9095 4269 59  0000 L BNN
+F 1 "10uF" H 9095 4069 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9050 4250 50  0001 C CNN
+F 3 "" H 9050 4250 50  0001 C CNN
+	1    9050 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C15
+U 1 1 1177674E
+P 4250 4200
+F 0 "C15" H 4310 4215 59  0000 L BNN
+F 1 "2200pF" H 4310 4015 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 4250 4200 50  0001 C CNN
+F 3 "" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C16
+U 1 1 5A688AE4
+P 4750 4200
+F 0 "C16" H 4810 4215 59  0000 L BNN
+F 1 "0.01uF" H 4810 4015 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 4750 4200 50  0001 C CNN
+F 3 "" H 4750 4200 50  0001 C CNN
+	1    4750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C17
+U 1 1 3CD2D273
+P 5250 4200
+F 0 "C17" H 5310 4215 59  0000 L BNN
+F 1 "0.01uF" H 5310 4015 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 5250 4200 50  0001 C CNN
+F 3 "" H 5250 4200 50  0001 C CNN
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C18
+U 1 1 F5E906B6
+P 6550 4200
+F 0 "C18" H 6610 4215 59  0000 L BNN
+F 1 "0.1uF" H 6610 4015 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 6550 4200 50  0001 C CNN
+F 3 "" H 6550 4200 50  0001 C CNN
+	1    6550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C19
+U 1 1 6EEB2871
+P 7050 4200
+F 0 "C19" H 7110 4215 59  0000 L BNN
+F 1 "0.1uF" H 7110 4015 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 7050 4200 50  0001 C CNN
+F 3 "" H 7050 4200 50  0001 C CNN
+	1    7050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C20
+U 1 1 C1A1AB37
+P 4250 1700
+F 0 "C20" H 4310 1715 59  0000 L BNN
+F 1 "2200pF" H 4310 1515 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 4250 1700 50  0001 C CNN
+F 3 "" H 4250 1700 50  0001 C CNN
+	1    4250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C21
+U 1 1 DA6BE4AF
+P 4850 1700
+F 0 "C21" H 4910 1715 59  0000 L BNN
+F 1 "0.01uF" H 4910 1515 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 4850 1700 50  0001 C CNN
+F 3 "" H 4850 1700 50  0001 C CNN
+	1    4850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C22
+U 1 1 F29534B9
+P 5350 1700
+F 0 "C22" H 5410 1715 59  0000 L BNN
+F 1 "0.01uF" H 5410 1515 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 5350 1700 50  0001 C CNN
+F 3 "" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C23
+U 1 1 15A508F3
+P 6750 1700
+F 0 "C23" H 6810 1715 59  0000 L BNN
+F 1 "0.1uF" H 6810 1515 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 6750 1700 50  0001 C CNN
+F 3 "" H 6750 1700 50  0001 C CNN
+	1    6750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:C-EU025-025X050 C24
+U 1 1 C65B0EAD
+P 7250 1700
+F 0 "C24" H 7310 1715 59  0000 L BNN
+F 1 "0.1uF" H 7310 1515 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 7250 1700 50  0001 C CNN
+F 3 "" H 7250 1700 50  0001 C CNN
+	1    7250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R1
+U 1 1 B121436F
+P 1900 3650
+F 0 "R1" H 1750 3709 59  0000 L BNN
+F 1 "100k" H 1750 3520 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 1900 3650 50  0001 C CNN
+F 3 "" H 1900 3650 50  0001 C CNN
+	1    1900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R12
+U 1 1 94754E9C
+P 10950 4550
+F 0 "R12" H 10800 4609 59  0000 L BNN
+F 1 "100k" H 10800 4420 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 10950 4550 50  0001 C CNN
+F 3 "" H 10950 4550 50  0001 C CNN
+	1    10950 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R13
+U 1 1 E6A22F71
+P 5050 4800
+F 0 "R13" H 4900 4859 59  0000 L BNN
+F 1 "3.3k" H 4900 4670 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 5050 4800 50  0001 C CNN
+F 3 "" H 5050 4800 50  0001 C CNN
+	1    5050 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R14
+U 1 1 F4628171
+P 6850 4800
+F 0 "R14" H 6700 4859 59  0000 L BNN
+F 1 "6.2k" H 6700 4670 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 6850 4800 50  0001 C CNN
+F 3 "" H 6850 4800 50  0001 C CNN
+	1    6850 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R15
+U 1 1 CA3CB155
+P 5150 1200
+F 0 "R15" H 5000 1259 59  0000 L BNN
+F 1 "3.3k" H 5000 1070 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 5150 1200 50  0001 C CNN
+F 3 "" H 5150 1200 50  0001 C CNN
+	1    5150 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R16
+U 1 1 D4B2B436
+P 6950 1200
+F 0 "R16" H 6800 1259 59  0000 L BNN
+F 1 "6.2k" H 6800 1070 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 6950 1200 50  0001 C CNN
+F 3 "" H 6950 1200 50  0001 C CNN
+	1    6950 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2.5-7 C14
+U 1 1 DD051D17
+P 8250 1300
+F 0 "C14" H 8295 1319 59  0000 L BNN
+F 1 "22uF" H 8295 1119 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8250 1300 50  0001 C CNN
+F 3 "" H 8250 1300 50  0001 C CNN
+	1    8250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C11
+U 1 1 613E0FC8
+P 9050 3100
+F 0 "C11" H 9095 3119 59  0000 L BNN
+F 1 "10uF" H 9095 2919 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9050 3100 50  0001 C CNN
+F 3 "" H 9050 3100 50  0001 C CNN
+	1    9050 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 2850 8950 2850
+Wire Wire Line
+	8050 2850 8050 2900
+Wire Wire Line
+	8050 2900 6550 2900
+Wire Wire Line
+	8950 3100 8950 3000
+Wire Wire Line
+	8950 3000 6550 3000
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C10
+U 1 1 61407A22
+P 9050 3400
+F 0 "C10" H 9095 3419 59  0000 L BNN
+F 1 "10uF" H 9095 3219 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9050 3400 50  0001 C CNN
+F 3 "" H 9050 3400 50  0001 C CNN
+	1    9050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C9
+U 1 1 61408531
+P 9050 3650
+F 0 "C9" H 9095 3669 59  0000 L BNN
+F 1 "10uF" H 9095 3469 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9050 3650 50  0001 C CNN
+F 3 "" H 9050 3650 50  0001 C CNN
+	1    9050 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C8
+U 1 1 61408C4A
+P 9050 3900
+F 0 "C8" H 9095 3919 59  0000 L BNN
+F 1 "10uF" H 9095 3719 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9050 3900 50  0001 C CNN
+F 3 "" H 9050 3900 50  0001 C CNN
+	1    9050 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3100 8800 3100
+Wire Wire Line
+	8800 3100 8800 3400
+Wire Wire Line
+	8800 3400 8950 3400
+Wire Wire Line
+	6550 3300 8700 3300
+Wire Wire Line
+	8700 3300 8700 3650
+Wire Wire Line
+	8700 3650 8950 3650
+Wire Wire Line
+	8950 3900 8600 3900
+Wire Wire Line
+	8600 3900 8600 3400
+Wire Wire Line
+	8600 3400 6550 3400
+Wire Wire Line
+	8500 3500 8500 4250
+Wire Wire Line
+	8500 4250 8950 4250
+Wire Wire Line
+	6550 3500 8500 3500
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R8
+U 1 1 61424105
+P 9850 4550
+F 0 "R8" H 9700 4609 59  0000 L BNN
+F 1 "100k" H 9700 4420 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 9850 4550 50  0001 C CNN
+F 3 "" H 9850 4550 50  0001 C CNN
+	1    9850 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R10
+U 1 1 61425581
+P 10400 4550
+F 0 "R10" H 10250 4609 59  0000 L BNN
+F 1 "100k" H 10250 4420 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 10400 4550 50  0001 C CNN
+F 3 "" H 10400 4550 50  0001 C CNN
+	1    10400 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R11
+U 1 1 61425996
+P 10650 4550
+F 0 "R11" H 10500 4609 59  0000 L BNN
+F 1 "100k" H 10500 4420 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 10650 4550 50  0001 C CNN
+F 3 "" H 10650 4550 50  0001 C CNN
+	1    10650 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R9
+U 1 1 6142F7B9
+P 10100 4550
+F 0 "R9" H 9950 4609 59  0000 L BNN
+F 1 "100k" H 9950 4420 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 10100 4550 50  0001 C CNN
+F 3 "" H 10100 4550 50  0001 C CNN
+	1    10100 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 4350 9850 3900
+Wire Wire Line
+	9850 3900 9250 3900
+Wire Wire Line
+	9250 3650 10100 3650
+Wire Wire Line
+	10100 3650 10100 4350
+Wire Wire Line
+	10400 4350 10400 3400
+Wire Wire Line
+	10400 3400 9250 3400
+Wire Wire Line
+	9250 3100 10650 3100
+Wire Wire Line
+	10650 3100 10650 4350
+Wire Wire Line
+	10950 2850 10950 4350
+$Comp
+L power:GND #PWR0101
+U 1 1 6144285C
+P 10250 5100
+F 0 "#PWR0101" H 10250 4850 50  0001 C CNN
+F 1 "GND" H 10255 4927 50  0000 C CNN
+F 2 "" H 10250 5100 50  0001 C CNN
+F 3 "" H 10250 5100 50  0001 C CNN
+	1    10250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 4900 10950 4750
+Connection ~ 10250 4900
+Wire Wire Line
+	10250 4900 10400 4900
+Connection ~ 10100 4900
+Wire Wire Line
+	10100 4900 10250 4900
+Wire Wire Line
+	10400 4750 10400 4900
+Connection ~ 10400 4900
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R7
+U 1 1 61469561
+P 9550 4550
+F 0 "R7" H 9400 4609 59  0000 L BNN
+F 1 "100k" H 9400 4420 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 9550 4550 50  0001 C CNN
+F 3 "" H 9550 4550 50  0001 C CNN
+	1    9550 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C4
+U 1 1 6147DC10
+P 2450 2300
+F 0 "C4" H 2495 2319 59  0000 L BNN
+F 1 "10uF" H 2495 2119 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2450 2300 50  0001 C CNN
+F 3 "" H 2450 2300 50  0001 C CNN
+	1    2450 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C6
+U 1 1 6147E086
+P 2450 1750
+F 0 "C6" H 2495 1769 59  0000 L BNN
+F 1 "10uF" H 2495 1569 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2450 1750 50  0001 C CNN
+F 3 "" H 2450 1750 50  0001 C CNN
+	1    2450 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C2
+U 1 1 6147E47C
+P 2450 2900
+F 0 "C2" H 2495 2919 59  0000 L BNN
+F 1 "10uF" H 2495 2719 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2450 2900 50  0001 C CNN
+F 3 "" H 2450 2900 50  0001 C CNN
+	1    2450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:CPOL-EUE2-5 C1
+U 1 1 6147E800
+P 2450 3200
+F 0 "C1" H 2495 3219 59  0000 L BNN
+F 1 "10uF" H 2495 3019 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2450 3200 50  0001 C CNN
+F 3 "" H 2450 3200 50  0001 C CNN
+	1    2450 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R4
+U 1 1 61482DEE
+P 1100 3650
+F 0 "R4" H 950 3709 59  0000 L BNN
+F 1 "100k" H 950 3520 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 1100 3650 50  0001 C CNN
+F 3 "" H 1100 3650 50  0001 C CNN
+	1    1100 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R5
+U 1 1 61483150
+P 850 3650
+F 0 "R5" H 700 3709 59  0000 L BNN
+F 1 "100k" H 700 3520 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 850 3650 50  0001 C CNN
+F 3 "" H 850 3650 50  0001 C CNN
+	1    850  3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R6
+U 1 1 6148371A
+P 550 3650
+F 0 "R6" H 400 3709 59  0000 L BNN
+F 1 "100k" H 400 3520 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 550 3650 50  0001 C CNN
+F 3 "" H 550 3650 50  0001 C CNN
+	1    550  3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R3
+U 1 1 6148287D
+P 1350 3650
+F 0 "R3" H 1200 3709 59  0000 L BNN
+F 1 "100k" H 1200 3520 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 1350 3650 50  0001 C CNN
+F 3 "" H 1350 3650 50  0001 C CNN
+	1    1350 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SabVolAudio-eagle-import:R-EU_0207_10 R2
+U 1 1 6019A4D2
+P 1600 3650
+F 0 "R2" H 1450 3709 59  0000 L BNN
+F 1 "100k" H 1450 3520 59  0000 L BNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 1600 3650 50  0001 C CNN
+F 3 "" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	0    1    1    0   
+$EndComp
+Text Label 1600 3850 0    10   ~ 0
+GND
+$Comp
+L power:GND #PWR0102
+U 1 1 614A35DB
+P 1250 4150
+F 0 "#PWR0102" H 1250 3900 50  0001 C CNN
+F 1 "GND" H 1255 3977 50  0000 C CNN
+F 2 "" H 1250 4150 50  0001 C CNN
+F 3 "" H 1250 4150 50  0001 C CNN
+	1    1250 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  4000 850  4000
+Wire Wire Line
+	1900 4000 1900 3850
+Wire Wire Line
+	1600 3850 1600 4000
+Connection ~ 1600 4000
+Wire Wire Line
+	1600 4000 1900 4000
+Wire Wire Line
+	1350 3850 1350 4000
+Connection ~ 1350 4000
+Wire Wire Line
+	1350 4000 1600 4000
+Wire Wire Line
+	1100 3850 1100 4000
+Connection ~ 1100 4000
+Wire Wire Line
+	850  3850 850  4000
+Connection ~ 850  4000
+Wire Wire Line
+	850  4000 1100 4000
+Wire Wire Line
+	2250 3200 1900 3200
+Wire Wire Line
+	1900 3200 1900 3450
+Wire Wire Line
+	2250 2900 1600 2900
+Wire Wire Line
+	1600 2900 1600 3450
+Wire Wire Line
+	2250 2600 1350 2600
+Wire Wire Line
+	1350 2600 1350 3450
+Wire Wire Line
+	2250 2300 1100 2300
+Wire Wire Line
+	1100 2300 1100 3450
+Wire Wire Line
+	2250 2000 850  2000
+Wire Wire Line
+	850  2000 850  3450
+Wire Wire Line
+	2250 1750 550  1750
+Wire Wire Line
+	550  1750 550  3450
+Wire Wire Line
+	2550 1750 3900 1750
+Wire Wire Line
+	3900 1750 3900 2700
+Wire Wire Line
+	3900 2700 4950 2700
+Wire Wire Line
+	4950 2800 3800 2800
+Wire Wire Line
+	3800 2800 3800 2000
+Wire Wire Line
+	3800 2000 2550 2000
+Wire Wire Line
+	2550 2300 3700 2300
+Wire Wire Line
+	3700 2300 3700 2900
+Wire Wire Line
+	3700 2900 4950 2900
+Wire Wire Line
+	4950 3200 3600 3200
+Wire Wire Line
+	3600 3200 3600 2600
+Wire Wire Line
+	3600 2600 2550 2600
+Wire Wire Line
+	2550 2900 3450 2900
+Wire Wire Line
+	3450 2900 3450 3300
+Wire Wire Line
+	3450 3300 4950 3300
+Wire Wire Line
+	4950 3400 3350 3400
+Wire Wire Line
+	3350 3400 3350 3200
+Wire Wire Line
+	3350 3200 2550 3200
+$Comp
+L power:GND #PWR0103
+U 1 1 61538D90
+P 4500 3750
+F 0 "#PWR0103" H 4500 3500 50  0001 C CNN
+F 1 "GND" H 4505 3577 50  0000 C CNN
+F 2 "" H 4500 3750 50  0001 C CNN
+F 3 "" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3100 4500 3750
+$Comp
+L power:GND #PWR0104
+U 1 1 61582679
+P 6850 5100
+F 0 "#PWR0104" H 6850 4850 50  0001 C CNN
+F 1 "GND" H 6855 4927 50  0000 C CNN
+F 2 "" H 6850 5100 50  0001 C CNN
+F 3 "" H 6850 5100 50  0001 C CNN
+	1    6850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 61582EA3
+P 5050 5100
+F 0 "#PWR0105" H 5050 4850 50  0001 C CNN
+F 1 "GND" H 5055 4927 50  0000 C CNN
+F 2 "" H 5050 5100 50  0001 C CNN
+F 3 "" H 5050 5100 50  0001 C CNN
+	1    5050 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5000 5050 5100
+$Comp
+L power:GND #PWR0106
+U 1 1 615A26A4
+P 4250 4550
+F 0 "#PWR0106" H 4250 4300 50  0001 C CNN
+F 1 "GND" H 4255 4377 50  0000 C CNN
+F 2 "" H 4250 4550 50  0001 C CNN
+F 3 "" H 4250 4550 50  0001 C CNN
+	1    4250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 615B9711
+P 3950 4000
+F 0 "#PWR0107" H 3950 3750 50  0001 C CNN
+F 1 "GND" H 3955 3827 50  0000 C CNN
+F 2 "" H 3950 4000 50  0001 C CNN
+F 3 "" H 3950 4000 50  0001 C CNN
+	1    3950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3900 3950 4000
+Wire Wire Line
+	5150 900  6000 900 
+$Comp
+L power:GND #PWR0108
+U 1 1 615C8FFF
+P 6000 1100
+F 0 "#PWR0108" H 6000 850 50  0001 C CNN
+F 1 "GND" H 6005 927 50  0000 C CNN
+F 2 "" H 6000 1100 50  0001 C CNN
+F 3 "" H 6000 1100 50  0001 C CNN
+	1    6000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1100 6000 900 
+Connection ~ 6000 900 
+Wire Wire Line
+	6000 900  6950 900 
+$Comp
+L power:GND #PWR0110
+U 1 1 61602717
+P 7600 2500
+F 0 "#PWR0110" H 7600 2250 50  0001 C CNN
+F 1 "GND" H 7605 2327 50  0000 C CNN
+F 2 "" H 7600 2500 50  0001 C CNN
+F 3 "" H 7600 2500 50  0001 C CNN
+	1    7600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2600 7450 2400
+Wire Wire Line
+	7450 2400 7600 2400
+Wire Wire Line
+	7600 2400 7600 2500
+Wire Wire Line
+	6850 5000 6850 5100
+$Comp
+L power:+12V #PWR0109
+U 1 1 616495AB
+P 7950 2400
+F 0 "#PWR0109" H 7950 2250 50  0001 C CNN
+F 1 "+12V" H 7965 2573 50  0000 C CNN
+F 2 "" H 7950 2400 50  0001 C CNN
+F 3 "" H 7950 2400 50  0001 C CNN
+	1    7950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 61659ACC
+P 8750 1750
+F 0 "#PWR0111" H 8750 1500 50  0001 C CNN
+F 1 "GND" H 8755 1577 50  0000 C CNN
+F 2 "" H 8750 1750 50  0001 C CNN
+F 3 "" H 8750 1750 50  0001 C CNN
+	1    8750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J4
+U 1 1 616740C6
+P 10300 2250
+F 0 "J4" V 10380 2242 50  0000 L CNN
+F 1 "SÁIDA ÁUDIO" H 10380 2151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 10300 2250 50  0001 C CNN
+F 3 "~" H 10300 2250 50  0001 C CNN
+	1    10300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 2850 10950 2850
+$Comp
+L power:GND #PWR0113
+U 1 1 616B51AE
+P 10300 2650
+F 0 "#PWR0113" H 10300 2400 50  0001 C CNN
+F 1 "GND" H 10305 2477 50  0000 C CNN
+F 2 "" H 10300 2650 50  0001 C CNN
+F 3 "" H 10300 2650 50  0001 C CNN
+	1    10300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2450 10300 2650
+Wire Wire Line
+	10600 2450 10600 2500
+Wire Wire Line
+	10600 2500 10950 2500
+Wire Wire Line
+	10950 2500 10950 2850
+Connection ~ 10950 2850
+Wire Wire Line
+	10500 2450 10500 2950
+Wire Wire Line
+	10500 2950 10650 2950
+Wire Wire Line
+	10650 2950 10650 3100
+Connection ~ 10650 3100
+Wire Wire Line
+	10400 2450 10400 3400
+Connection ~ 10400 3400
+Wire Wire Line
+	10200 2450 10200 3650
+Wire Wire Line
+	10200 3650 10100 3650
+Connection ~ 10100 3650
+Wire Wire Line
+	10100 2450 10100 2750
+Wire Wire Line
+	10100 2750 9850 2750
+Wire Wire Line
+	9850 2750 9850 3900
+Connection ~ 9850 3900
+Wire Wire Line
+	10000 2450 10000 2600
+Wire Wire Line
+	10000 2600 9550 2600
+$Comp
+L Connector_Generic:Conn_01x07 J3
+U 1 1 616F20FF
+P 1200 900
+F 0 "J3" V 1164 1280 50  0000 L CNN
+F 1 "ENTRADA AUDIO" V 1073 1280 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 1200 900 50  0001 C CNN
+F 3 "~" H 1200 900 50  0001 C CNN
+	1    1200 900 
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 616F4048
+P 1200 1350
+F 0 "#PWR0114" H 1200 1100 50  0001 C CNN
+F 1 "GND" H 1205 1177 50  0000 C CNN
+F 2 "" H 1200 1350 50  0001 C CNN
+F 3 "" H 1200 1350 50  0001 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1100 1200 1350
+Wire Wire Line
+	1500 1100 1500 1550
+Wire Wire Line
+	1500 1550 1900 1550
+Wire Wire Line
+	1900 1550 1900 3200
+Connection ~ 1900 3200
+Wire Wire Line
+	1600 2900 1600 1650
+Wire Wire Line
+	1600 1650 1400 1650
+Wire Wire Line
+	1400 1650 1400 1100
+Connection ~ 1600 2900
+Wire Wire Line
+	1300 1100 1300 1700
+Wire Wire Line
+	1300 1700 1350 1700
+Wire Wire Line
+	1350 1700 1350 2600
+Connection ~ 1350 2600
+Wire Wire Line
+	1100 1100 1100 2300
+Connection ~ 1100 2300
+Wire Wire Line
+	1000 1100 1000 1550
+Wire Wire Line
+	1000 1550 850  1550
+Wire Wire Line
+	850  1550 850  2000
+Connection ~ 850  2000
+Wire Wire Line
+	900  1100 900  1450
+Wire Wire Line
+	900  1450 550  1450
+Wire Wire Line
+	550  1450 550  1750
+Connection ~ 550  1750
+$Sheet
+S 800  4750 1850 800 
+U 613B8856
+F0 "Processador" 50
+F1 "processador.sch" 50
+F2 "SDA" I R 2650 4900 50 
+F3 "SCL" I R 2650 5050 50 
+$EndSheet
+Text GLabel 3050 4900 2    50   Input ~ 0
+SDA
+Text GLabel 3050 5050 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	2650 4900 3050 4900
+Wire Wire Line
+	3050 5050 2650 5050
+Text GLabel 6700 2800 2    50   Input ~ 0
+SCL
+Text GLabel 6700 2700 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	6550 2700 6700 2700
+Wire Wire Line
+	6700 2800 6550 2800
+$Sheet
+S 800  5750 1850 700 
+U 61432475
+F0 "Display" 50
+F1 "display.sch" 50
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 614CE290
+P 9800 1300
+F 0 "J2" H 9880 1292 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9880 1201 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 9800 1300 50  0001 C CNN
+F 3 "~" H 9800 1300 50  0001 C CNN
+	1    9800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1300 8750 1300
+Wire Wire Line
+	8750 1400 9600 1400
+Wire Wire Line
+	9550 4350 9550 4400
+Wire Wire Line
+	9550 4750 9550 4900
+Wire Wire Line
+	9250 4250 9550 4250
+Wire Wire Line
+	9550 2600 9550 4250
+Wire Wire Line
+	9550 4350 9550 4250
+Connection ~ 9550 4350
+Connection ~ 9550 4250
+Wire Wire Line
+	10400 4900 10650 4900
+Wire Wire Line
+	10650 4750 10650 4900
+Connection ~ 10650 4900
+Wire Wire Line
+	10650 4900 10950 4900
+Wire Wire Line
+	10250 4900 10250 5100
+Wire Wire Line
+	9550 4900 9850 4900
+Connection ~ 9850 4900
+Wire Wire Line
+	9850 4900 10100 4900
+Wire Wire Line
+	9850 4750 9850 4900
+Wire Wire Line
+	9850 4700 9850 4750
+Connection ~ 9850 4750
+Wire Wire Line
+	10100 4700 10100 4750
+Connection ~ 10100 4750
+Wire Wire Line
+	550  3750 550  3850
+Connection ~ 550  3850
+Wire Wire Line
+	550  3850 550  4000
+Wire Wire Line
+	10100 4750 10100 4900
+Wire Wire Line
+	1100 4000 1250 4000
+Wire Wire Line
+	1250 4150 1250 4000
+Connection ~ 1250 4000
+Wire Wire Line
+	1250 4000 1350 4000
+Text Label 1250 4100 2    50   ~ 0
+GND
+Wire Wire Line
+	8750 1400 8750 1600
+Wire Wire Line
+	8250 1600 8750 1600
+Connection ~ 8750 1600
+Wire Wire Line
+	8750 1600 8750 1750
+Wire Wire Line
+	6550 3200 7950 3200
+Wire Wire Line
+	7950 3200 7950 2400
+Wire Wire Line
+	8250 1100 8500 1100
+$Comp
+L power:+12V #PWR0112
+U 1 1 617C99E5
+P 8500 750
+F 0 "#PWR0112" H 8500 600 50  0001 C CNN
+F 1 "+12V" H 8515 923 50  0000 C CNN
+F 2 "" H 8500 750 50  0001 C CNN
+F 3 "" H 8500 750 50  0001 C CNN
+	1    8500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 750  8500 1100
+Connection ~ 8500 1100
+Wire Wire Line
+	8500 1100 8750 1100
+$Sheet
+S 800  6650 1850 750 
+U 6183CEE2
+F0 "Fonte" 50
+F1 "fonte.sch" 50
+$EndSheet
+Text GLabel 9000 1600 2    50   Input ~ 0
+GND
+Wire Wire Line
+	9000 1600 8750 1600
+Wire Wire Line
+	4950 3000 3950 3000
+Wire Wire Line
+	3950 3000 3950 3600
+Wire Wire Line
+	6350 2600 7450 2600
+Wire Wire Line
+	4500 3100 5000 3100
+Wire Wire Line
+	4250 4550 4250 4400
+$EndSCHEMATC

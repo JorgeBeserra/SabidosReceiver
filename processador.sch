@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 7500 3200 2    50   Input ~ 0
+SDA
+Text HLabel 7500 2900 2    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0115
+U 1 1 613BF236
+P 7800 4100
+F 0 "#PWR0115" H 7800 3850 50  0001 C CNN
+F 1 "GND" H 7805 3927 50  0000 C CNN
+F 2 "" H 7800 4100 50  0001 C CNN
+F 3 "" H 7800 4100 50  0001 C CNN
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 613BF60F
+P 4600 4600
+F 0 "#PWR0116" H 4600 4350 50  0001 C CNN
+F 1 "GND" H 4605 4427 50  0000 C CNN
+F 2 "" H 4600 4600 50  0001 C CNN
+F 3 "" H 4600 4600 50  0001 C CNN
+	1    4600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4100 4600 4100
+Wire Wire Line
+	4600 4100 4600 4600
+$Comp
+L Device:R R17
+U 1 1 6143C6BB
+P 3950 2850
+F 0 "R17" H 4020 2896 50  0000 L CNN
+F 1 "10K" H 4020 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 3880 2850 50  0001 C CNN
+F 3 "~" H 3950 2850 50  0001 C CNN
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 6143D429
+P 4200 2850
+F 0 "R18" H 4270 2896 50  0000 L CNN
+F 1 "10K" H 4270 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4130 2850 50  0001 C CNN
+F 3 "~" H 4200 2850 50  0001 C CNN
+	1    4200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 6143DF45
+P 4450 2850
+F 0 "R19" H 4520 2896 50  0000 L CNN
+F 1 "10K3" H 4520 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4380 2850 50  0001 C CNN
+F 3 "~" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 6143E2AB
+P 4650 2850
+F 0 "R20" H 4720 2896 50  0000 L CNN
+F 1 "10K" H 4720 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4580 2850 50  0001 C CNN
+F 3 "~" H 4650 2850 50  0001 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3000 4650 3400
+Wire Wire Line
+	4650 3400 4900 3400
+Wire Wire Line
+	4450 3000 4450 3300
+Wire Wire Line
+	4450 3300 4900 3300
+Wire Wire Line
+	4200 3000 4200 3200
+Wire Wire Line
+	4200 3200 4900 3200
+Text GLabel 7350 4200 2    50   Input ~ 0
+3V3
+Text GLabel 4800 2300 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	4650 2700 4650 2300
+Wire Wire Line
+	4650 2300 4800 2300
+Wire Wire Line
+	4650 2300 4450 2300
+Wire Wire Line
+	3950 2300 3950 2700
+Connection ~ 4650 2300
+Wire Wire Line
+	4200 2700 4200 2300
+Connection ~ 4200 2300
+Wire Wire Line
+	4200 2300 3950 2300
+Wire Wire Line
+	4450 2700 4450 2300
+Connection ~ 4450 2300
+Wire Wire Line
+	4450 2300 4200 2300
+Text GLabel 4800 4200 0    50   Input ~ 0
+5V
+Wire Wire Line
+	3950 3000 3950 3100
+Wire Wire Line
+	3950 3100 4900 3100
+Wire Wire Line
+	4900 4200 4800 4200
+NoConn ~ 4900 2800
+NoConn ~ 4900 2900
+NoConn ~ 4900 3000
+NoConn ~ 4900 3500
+NoConn ~ 4900 3600
+NoConn ~ 4900 3700
+NoConn ~ 4900 3800
+NoConn ~ 4900 3900
+NoConn ~ 4900 4000
+NoConn ~ 6750 4000
+NoConn ~ 6750 3700
+NoConn ~ 6750 3600
+NoConn ~ 6750 3500
+NoConn ~ 6750 3400
+NoConn ~ 6750 3300
+NoConn ~ 6750 3100
+NoConn ~ 6750 3000
+NoConn ~ 6750 2800
+NoConn ~ 6750 3900
+Wire Wire Line
+	7500 3200 6750 3200
+Wire Wire Line
+	6750 2900 7500 2900
+NoConn ~ 6750 3800
+$Comp
+L doit-esp32-devkit-v1:DOIT-ESP32-DEVKIT-V1 U1
+U 1 1 613B952D
+P 5850 3100
+F 0 "U1" H 5825 3665 50  0000 C CNN
+F 1 "DOIT-ESP32-DEVKIT-V1" H 5825 3574 50  0000 C CNN
+F 2 "doit-esp32-devkit-kicad-master:ESP32-DOIT-DEVKIT" H 5800 3550 50  0001 C CNN
+F 3 "" H 5800 3550 50  0001 C CNN
+	1    5850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4100 7800 4100
+Wire Wire Line
+	6750 4200 7350 4200
+$Comp
+L Connector:Conn_01x12_Male J5
+U 1 1 61A8750A
+P 2200 3550
+F 0 "J5" H 2172 3432 50  0000 R CNN
+F 1 "Conn_01x12_Male" H 2172 3523 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2200 3550 50  0001 C CNN
+F 3 "~" H 2200 3550 50  0001 C CNN
+	1    2200 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4050 3850 4050
+Wire Wire Line
+	4600 4050 4600 4100
+Connection ~ 4600 4100
+Wire Wire Line
+	4650 3400 2950 3400
+Wire Wire Line
+	2950 3400 2950 3950
+Wire Wire Line
+	2950 3950 2400 3950
+Connection ~ 4650 3400
+Wire Wire Line
+	2400 3850 2900 3850
+Wire Wire Line
+	2900 3850 2900 3300
+Wire Wire Line
+	2900 3300 4450 3300
+Connection ~ 4450 3300
+Wire Wire Line
+	4200 3200 2850 3200
+Wire Wire Line
+	2850 3200 2850 3750
+Wire Wire Line
+	2850 3750 2400 3750
+Connection ~ 4200 3200
+Wire Wire Line
+	2400 3650 2800 3650
+Wire Wire Line
+	2800 3650 2800 3100
+Wire Wire Line
+	2800 3100 3950 3100
+Connection ~ 3950 3100
+Wire Wire Line
+	2400 2950 3850 2950
+Wire Wire Line
+	3850 2950 3850 4050
+Connection ~ 3850 4050
+Wire Wire Line
+	3850 4050 4600 4050
+$EndSCHEMATC

@@ -1,0 +1,133 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L yaaj_dcdc_stepdown_lm2596:YAAJ_DCDC_StepDown_LM2596 U1
+U 1 1 61329A30
+P 6900 1950
+F 0 "U1" H 6900 2315 50  0000 C CNN
+F 1 "YAAJ_DCDC_StepDown_LM2596" H 6900 2224 50  0000 C CNN
+F 2 "" H 6850 1950 50  0001 C CNN
+F 3 "" H 6850 1950 50  0001 C CNN
+	1    6900 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2250 6800 2450
+Wire Wire Line
+	2050 3900 2150 3900
+Wire Wire Line
+	7000 2450 7000 2250
+$Comp
+L power:GND #PWR0101
+U 1 1 6132C30A
+P 2150 4150
+F 0 "#PWR0101" H 2150 3900 50  0001 C CNN
+F 1 "GND" H 2155 3977 50  0000 C CNN
+F 2 "" H 2150 4150 50  0001 C CNN
+F 3 "" H 2150 4150 50  0001 C CNN
+	1    2150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4150 2150 3900
+Connection ~ 2150 3900
+$Comp
+L doit-esp32-devkit-v1:DOIT-ESP32-DEVKIT-V1 U2
+U 1 1 6132D23D
+P 5050 3300
+F 0 "U2" H 5025 3865 50  0000 C CNN
+F 1 "DOIT-ESP32-DEVKIT-V1" H 5025 3774 50  0000 C CNN
+F 2 "" H 5000 3750 50  0001 C CNN
+F 3 "" H 5000 3750 50  0001 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1850 7300 1850
+$Comp
+L power:GND #PWR0102
+U 1 1 61334A5D
+P 3800 4800
+F 0 "#PWR0102" H 3800 4550 50  0001 C CNN
+F 1 "GND" H 3805 4627 50  0000 C CNN
+F 2 "" H 3800 4800 50  0001 C CNN
+F 3 "" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4300 3800 4300
+Wire Wire Line
+	3800 4300 3800 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 6133539C
+P 6300 4800
+F 0 "#PWR0103" H 6300 4550 50  0001 C CNN
+F 1 "GND" H 6305 4627 50  0000 C CNN
+F 2 "" H 6300 4800 50  0001 C CNN
+F 3 "" H 6300 4800 50  0001 C CNN
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4300 6300 4300
+Wire Wire Line
+	6300 4300 6300 4800
+$Sheet
+S 11950 0    6750 5550
+U 613265ED
+F0 "Sheet613265EC" 50
+F1 "file613265EC.sch" 50
+$EndSheet
+$Comp
+L SabVol-eagle-import:PT2322-S U?
+U 1 1 613A0E22
+P 10050 2150
+F 0 "U?" H 10050 3036 59  0000 C CNN
+F 1 "PT2322-S" H 10050 2931 59  0000 C CNN
+F 2 "" H 10050 2150 50  0001 C CNN
+F 3 "" H 10050 2150 50  0001 C CNN
+	1    10050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_ACDC:HLK-PM01 PS?
+U 1 1 613A2CD0
+P 1550 3600
+F 0 "PS?" H 1550 3925 50  0000 C CNN
+F 1 "HLK-PM01" H 1550 3834 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx" H 1550 3300 50  0001 C CNN
+F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 1950 3250 50  0001 C CNN
+	1    1550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3700 2050 3700
+Wire Wire Line
+	2050 3700 2050 3900
+Wire Wire Line
+	3800 3900 3800 4300
+Wire Wire Line
+	2150 3900 3800 3900
+Connection ~ 3800 4300
+Wire Wire Line
+	1950 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 4400
+Wire Wire Line
+	3900 4400 4100 4400
+$EndSCHEMATC
