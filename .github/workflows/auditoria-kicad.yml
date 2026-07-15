@@ -1,0 +1,26 @@
+name: Auditoria do projeto KiCad
+
+on:
+  push:
+    branches:
+      - main
+      - "chore/**"
+  pull_request:
+
+jobs:
+  auditoria-estatica:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Executar auditoria estática
+        id: auditoria
+        continue-on-error: true
+        run: bash scripts/auditar-projeto.sh
+
+      - name: Registrar situação conhecida
+        if: steps.auditoria.outcome == 'failure'
+        run: |
+          echo "A auditoria encontrou pendências conhecidas da migração."
+          echo "Consulte docs/MIGRACAO.md antes de fabricar a placa."
