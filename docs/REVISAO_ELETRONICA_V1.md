@@ -2,6 +2,12 @@
 
 Este documento registra as alterações técnicas recomendadas antes da fabricação.
 
+## Contexto de uso
+
+O equipamento será usado em ambiente residencial como processador de áudio para home theater. A TV fornecerá áudio digital S/PDIF a um conversor externo, e as saídas analógicas multicanal desse conversor entrarão no SabidosReceiver.
+
+A placa será alimentada por fonte DC regulada de 12 V para uso interno. Não é necessário projetar para transientes automotivos, load dump ou ambiente veicular.
+
 ## Prioridade crítica
 
 ### PT2322-S
@@ -23,6 +29,8 @@ Este documento registra as alterações técnicas recomendadas antes da fabrica�
 - Adicionar desacoplamento local próximo ao PT2322-S: 100 nF cerâmico em paralelo com 10 µF na alimentação de 8 V.
 - Adicionar desacoplamento próximo ao ESP32: 100 nF cerâmico e capacitor de reserva entre 220 µF e 470 µF na linha de 5 V.
 - Manter o LM78M08 com área de cobre suficiente para dissipação térmica.
+- Priorizar fonte externa regulada e de baixo ruído.
+- Se houver ruído audível, considerar filtro LC ou regulador pós-filtro dedicado para a seção analógica.
 
 ## I²C e conversão de nível
 
@@ -38,6 +46,9 @@ Este documento registra as alterações técnicas recomendadas antes da fabrica�
 - Usar plano de GND contínuo; não criar divisões de terra que obriguem sinais a atravessar fendas.
 - Fazer o retorno dos conectores de áudio chegar à região do PT2322-S sem compartilhar caminhos estreitos com ESP32, display ou fonte.
 - Manter os capacitores de acoplamento próximos aos respectivos pinos do PT2322-S.
+- Identificar claramente os canais vindos do conversor S/PDIF: FL, FR, SL, SR, C e SUB.
+- Evitar loops de terra entre TV, conversor S/PDIF, SabidosReceiver e amplificadores.
+- Preferir conectores de entrada e saída com aterramento bem definido e cabos curtos.
 
 ## ESP32
 
@@ -50,9 +61,10 @@ Este documento registra as alterações técnicas recomendadas antes da fabrica�
 
 - Adicionar proteção contra inversão de polaridade na entrada de 12 V.
 - Adicionar fusível ou polyfuse dimensionado para a placa.
-- Adicionar TVS na entrada de 12 V quando a placa for usada em ambiente automotivo.
+- Não é necessária TVS automotiva; opcionalmente usar TVS de baixa potência para proteção contra surtos da fonte externa.
 - Identificar todos os conectores na serigrafia com função e pinagem.
 - Adicionar revisão da placa e nome `SabidosReceiver` na serigrafia.
+- Prever ventilação no gabinete e separar fisicamente fonte, sinal e amplificadores de potência.
 
 ## Regras mínimas sugeridas
 
