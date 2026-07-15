@@ -1,0 +1,33 @@
+# Arquivos locais e temporários do KiCad
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.pcb-bak
+*.bak
+*.bck
+*.net
+*.cmp
+*.erc
+*.rpt
+*.tmp
+*.lck
+~*
+
+# Backups automáticos do KiCad
+*-backups/
+
+# Histórico local criado por plugins/extensões
+.history/
+
+# Saídas de fabricação geradas localmente
+Gerber/
+gerbers/
+Manufacturing/
+
+# Arquivos do sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
