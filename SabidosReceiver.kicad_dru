@@ -1,0 +1,29 @@
+(version 1)
+
+# Regras adicionais do SabidosReceiver.
+# Estas regras complementam as restrições configuradas no projeto.
+
+(rule "Alimentacao 12V"
+  (condition "A.NetName == '+12V'")
+  (constraint track_width (min 1.0mm))
+  (constraint clearance (min 0.25mm)))
+
+(rule "Alimentacao 8V"
+  (condition "A.NetName == '+8V'")
+  (constraint track_width (min 0.50mm))
+  (constraint clearance (min 0.20mm)))
+
+(rule "Alimentacao 5V"
+  (condition "A.NetName == '+5V'")
+  (constraint track_width (min 0.50mm))
+  (constraint clearance (min 0.20mm)))
+
+(rule "Alimentacao 3V3"
+  (condition "A.NetName == '+3V3' || A.NetName == '+3V3-0' || A.NetName == '+3V3-1'")
+  (constraint track_width (min 0.30mm))
+  (constraint clearance (min 0.20mm)))
+
+(rule "I2C"
+  (condition "A.NetName == 'SDA-3V' || A.NetName == 'SCL-3V' || A.NetName == 'SDA-HV-8V' || A.NetName == 'SCL-HV-8V'")
+  (constraint track_width (min 0.25mm))
+  (constraint clearance (min 0.20mm)))
