@@ -4,4 +4,5 @@
   (lib (name "SabVolAudio-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/SabVolAudio-eagle-import.lib")(options "")(descr ""))
   (lib (name "SabVol-rescue")(type "KiCad")(uri "${KIPRJMOD}/SabVol-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "SabVolAudio-rescue")(type "KiCad")(uri "${KIPRJMOD}/SabVolAudio-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "PT2323")(type "KiCad")(uri "${KIPRJMOD}/PT2323.kicad_sym")(options "")(descr "PT2323-S input selector"))
 )

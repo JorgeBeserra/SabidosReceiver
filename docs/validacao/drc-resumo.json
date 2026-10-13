@@ -1,0 +1,28 @@
+{
+  "violations": {
+    "total": 86,
+    "types": {
+      "clearance": 1,
+      "copper_edge_clearance": 1,
+      "isolated_copper": 1,
+      "lib_footprint_issues": 3,
+      "lib_footprint_mismatch": 75,
+      "malformed_courtyard": 4,
+      "track_dangling": 1
+    }
+  },
+  "unconnected_items": {
+    "total": 3,
+    "types": {
+      "unconnected_items": 3
+    }
+  },
+  "schematic_parity": {
+    "total": 64,
+    "types": {
+      "extra_footprint": 9,
+      "missing_footprint": 49,
+      "net_conflict": 6
+    }
+  }
+}

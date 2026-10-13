@@ -1,6 +1,6 @@
 # SabidosReceiver
 
-Projeto de receptor e processador de áudio multicanal baseado no **PT2322-S**, controlado por um **ESP32**.
+Projeto de receptor e processador de áudio multicanal baseado no **PT2322-S**, com seletor **PT2323-S**, controlado por um **ESP32**.
 
 ## Ferramenta
 
@@ -39,3 +39,7 @@ Antes de removê-los definitivamente, é necessário confirmar que todas as folh
 ## Observação importante
 
 Os arquivos legados não devem ser apagados sem comparação visual com o esquemático atual, porque algumas folhas convertidas aparecem vazias e podem ainda depender do conteúdo antigo.
+
+## Integração PT2323
+
+A revisão em desenvolvimento completa o seletor U3 e as quatro entradas estéreo. Veja [mudanças e validação](docs/PT2323_INTEGRACAO.md). O esquema foi atualizado; a PCB ainda precisa receber essas mudanças.
