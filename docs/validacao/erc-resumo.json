@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "error": 17,
+    "warning": 43
+  },
+  "updated": {
+    "error": 5,
+    "warning": 40
+  },
+  "remaining_errors": [
+    {
+      "sheet": "/",
+      "type": "pin_not_connected",
+      "description": "Pin not connected",
+      "items": [
+        "Pino de Folha Hierárquica 'SDA-HV-5V'"
+      ]
+    },
+    {
+      "sheet": "/",
+      "type": "pin_not_connected",
+      "description": "Pin not connected",
+      "items": [
+        "Pino de Folha Hierárquica 'SCL-HV-5V'"
+      ]
+    },
+    {
+      "sheet": "/",
+      "type": "power_pin_not_driven",
+      "description": "Input Power pin not driven by any Output Power pins",
+      "items": [
+        "Symbol U2 Pino 7 [VREF, Alimentação de entrada, Linha]"
+      ]
+    },
+    {
+      "sheet": "/",
+      "type": "power_pin_not_driven",
+      "description": "Input Power pin not driven by any Output Power pins",
+      "items": [
+        "Symbol #PWR012 Pino oculto 1 [+3V3, Alimentação de entrada, Linha]"
+      ]
+    },
+    {
+      "sheet": "/Processador/",
+      "type": "power_pin_not_driven",
+      "description": "Input Power pin not driven by any Output Power pins",
+      "items": [
+        "Symbol #PWR02 Pino oculto 1 [GNDD, Alimentação de entrada, Linha]"
+      ]
+    }
+  ]
+}

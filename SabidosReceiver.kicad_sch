@@ -1149,7 +1149,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheet4u.com/pdf-down/P/T/2/PT2323_PrincetonTechnology.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1410,7 +1410,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -20.32 -10.16 0)
 					(length 5.08)
 					(name "MIXO"
@@ -1446,7 +1446,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -20.32 -15.24 0)
 					(length 5.08)
 					(name "REF"
@@ -1482,7 +1482,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 -17.78 180)
 					(length 5.08)
 					(name "SDA"
@@ -1500,7 +1500,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 -15.24 180)
 					(length 5.08)
 					(name "SCL"
@@ -1644,7 +1644,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "LPF_I"
@@ -1662,7 +1662,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 7.62 180)
 					(length 5.08)
 					(name "R4"
@@ -1680,7 +1680,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 10.16 180)
 					(length 5.08)
 					(name "R3"
@@ -1698,7 +1698,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 12.7 180)
 					(length 5.08)
 					(name "R2"
@@ -1716,7 +1716,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 15.24 180)
 					(length 5.08)
 					(name "R1"
@@ -6941,7 +6941,7 @@
 		)
 		(uuid "8c96ee1d-c4c1-40e2-9b78-744bd5ad9db4")
 	)
-	(label "SELECTOR-CTO"
+	(label "SELECTOR-CT"
 		(at 138.43 201.93 0)
 		(effects
 			(font
@@ -16445,4 +16445,18 @@
 		)
 	)
 	(embedded_fonts no)
+
+
+(global_label "PT1L" (shape input) (at 49.53 195.58 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "272298b0-5e4f-45ef-8442-db485771d49f"))
+(global_label "PT1R" (shape input) (at 90.17 195.58 180) (effects (font (size 0.85 0.85)) (justify left)) (uuid "29dedfc3-7307-4b4f-8b2e-58d48788c449"))
+(global_label "PT2L" (shape input) (at 49.53 198.12 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "4221dba8-0c43-4333-a30d-41598632a5b6"))
+(global_label "PT2R" (shape input) (at 90.17 198.12 180) (effects (font (size 0.85 0.85)) (justify left)) (uuid "d8667b26-baa7-47dc-a7c2-be3922ef5009"))
+(global_label "PT3L" (shape input) (at 49.53 200.66 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "e88f2e21-406a-4299-921c-35aa54e8fc12"))
+(global_label "PT3R" (shape input) (at 90.17 200.66 180) (effects (font (size 0.85 0.85)) (justify left)) (uuid "66473171-0d20-452a-9008-19df299162f7"))
+(global_label "PT4L" (shape input) (at 49.53 203.20 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "e5de1ef3-5641-46bc-9e9f-ac28c606660f"))
+(global_label "PT4R" (shape input) (at 90.17 203.20 180) (effects (font (size 0.85 0.85)) (justify left)) (uuid "5f85f16e-9dfa-4083-b72e-24fd632de220"))
+(sheet (at 175.26 250.19) (size 40.64 15.24) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0)) (uuid "1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3")
+(property "Sheetname" "Entradas Stereo" (at 175.26 249 0) (effects (font (size 1.0 1.0))))
+(property "Sheetfile" "entradas_estereo.kicad_sch" (at 175.26 266.5 0) (effects (font (size 1.0 1.0))))
+(instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb" (page "6")))))
 )

@@ -1,0 +1,722 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "93d16db8-27c7-4145-83f9-54f47510e737") (paper "A4")
+(lib_symbols
+(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x03"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x03_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "Stereo 1: pino 1=L, 2=GND, 3=R" (at 45.72 30 0) (effects (font (size 1.0 1.0))) (uuid "70dba708-2119-4e9f-8adb-51f89187aca7"))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 45.72 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0f39dabe-676c-4485-9f12-a87ec261e26e")
+ (property "Reference" "J7" (at 48.72 43.72 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "Stereo 1" (at 48.72 47.72 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 45.72 45.72 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 45.72 45.72 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "J7") (unit 1)))))
+(wire (pts (xy 40.64 43.18) (xy 38.10 43.18)) (stroke (width 0) (type default)) (uuid "e2bef62c-f72d-4086-9def-c78d7f5a9427"))
+(global_label "STEREO1-L-IN" (shape input) (at 38.10 43.18 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "571889a0-8493-4eff-a712-3e371ee442f4"))
+(wire (pts (xy 40.64 48.26) (xy 38.10 48.26)) (stroke (width 0) (type default)) (uuid "bf621b9d-4dce-4074-be18-24c1f9c2354a"))
+(global_label "STEREO1-R-IN" (shape input) (at 38.10 48.26 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "aa5906ad-4103-4926-b7a9-a47b3b89a622"))
+(wire (pts (xy 40.64 45.72) (xy 38.10 45.72)) (stroke (width 0) (type default)) (uuid "fa522de7-6e31-4d8b-a67f-19562f240780"))
+(global_label "GNDD" (shape input) (at 38.10 45.72 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "82a16164-7ebd-45c1-80cc-def902926cf9"))
+(symbol (lib_id "Device:C_Polarized") (at 30.479999999999997 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "bf5f96df-5e2a-461d-9302-2a3a0f1fd164")
+ (property "Reference" "C40" (at 33.48 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 33.48 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 30.479999999999997 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 30.479999999999997 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C40") (unit 1)))))
+(wire (pts (xy 30.48 72.39) (xy 27.94 72.39)) (stroke (width 0) (type default)) (uuid "85dab2c8-3b97-4ef9-85ea-763516a3de1c"))
+(global_label "PT1L" (shape output) (at 27.94 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "bd16abea-ee45-4a09-86a6-355b7e467217"))
+(wire (pts (xy 30.48 80.01) (xy 27.94 80.01)) (stroke (width 0) (type default)) (uuid "cd64bf88-e747-4aae-8f9b-2ca8d911df9a"))
+(global_label "STEREO1-L-IN" (shape input) (at 27.94 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "4510d2f0-5559-440e-a54e-f927a509d352"))
+(symbol (lib_id "Device:R") (at 38.099999999999994 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0e7d12ba-ff98-4e95-bbab-fbd0e5a5581b")
+ (property "Reference" "R46" (at 41.099999999999994 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 41.099999999999994 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 38.099999999999994 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 38.099999999999994 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R46") (unit 1)))))
+(wire (pts (xy 38.10 95.25) (xy 35.56 95.25)) (stroke (width 0) (type default)) (uuid "ebee9330-d787-4ef4-a927-f91d0e8aa3a7"))
+(global_label "STEREO1-L-IN" (shape input) (at 35.56 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "8b610afd-2cb9-4c5e-8b1b-959eac2ca979"))
+(wire (pts (xy 38.10 102.87) (xy 35.56 102.87)) (stroke (width 0) (type default)) (uuid "d128916b-9fb1-420c-9e73-857c0250892c"))
+(global_label "GNDD" (shape input) (at 35.56 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "0fe5f3ed-98b9-44bd-816c-29dd894d0cab"))
+(symbol (lib_id "Device:C_Polarized") (at 60.959999999999994 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "bcddb515-0ed7-478c-b108-8b79f26c1fa2")
+ (property "Reference" "C41" (at 63.959999999999994 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 63.959999999999994 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 60.959999999999994 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 60.959999999999994 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C41") (unit 1)))))
+(wire (pts (xy 60.96 72.39) (xy 58.42 72.39)) (stroke (width 0) (type default)) (uuid "74ae98dc-a7e6-442a-8f05-ebf3f05fe5a1"))
+(global_label "PT1R" (shape output) (at 58.42 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "b2a9ed98-b266-4a77-87f9-df08ad0a36c2"))
+(wire (pts (xy 60.96 80.01) (xy 58.42 80.01)) (stroke (width 0) (type default)) (uuid "3e275c44-0687-46e9-ad35-5be047277314"))
+(global_label "STEREO1-R-IN" (shape input) (at 58.42 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "776fd965-0084-424f-a314-04dec65a980a"))
+(symbol (lib_id "Device:R") (at 68.58 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "66b9062f-c88a-485a-aed1-7159f27e2ce5")
+ (property "Reference" "R47" (at 71.58 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 71.58 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 68.58 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 68.58 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R47") (unit 1)))))
+(wire (pts (xy 68.58 95.25) (xy 66.04 95.25)) (stroke (width 0) (type default)) (uuid "d8d4762c-3cb1-4bfa-ade3-a20a421b7316"))
+(global_label "STEREO1-R-IN" (shape input) (at 66.04 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "9c52ced2-daef-4b0e-80e9-46981dc88b7d"))
+(wire (pts (xy 68.58 102.87) (xy 66.04 102.87)) (stroke (width 0) (type default)) (uuid "c17e636d-9bf2-43b1-8750-106ec72661b3"))
+(global_label "GNDD" (shape input) (at 66.04 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "fe859a72-a07a-43ff-a024-7c12ea9d85b8"))
+(text "Stereo 2: pino 1=L, 2=GND, 3=R" (at 106.68 30 0) (effects (font (size 1.0 1.0))) (uuid "a2e8263c-3c55-4b60-ba75-80832f420786"))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 106.68 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "32d62c3b-f014-4b32-89a0-48da02c34b81")
+ (property "Reference" "J8" (at 109.68 43.72 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "Stereo 2" (at 109.68 47.72 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 106.68 45.72 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 106.68 45.72 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "J8") (unit 1)))))
+(wire (pts (xy 101.60 43.18) (xy 99.06 43.18)) (stroke (width 0) (type default)) (uuid "dd69f439-f6c5-421b-a560-014b733261a8"))
+(global_label "STEREO2-L-IN" (shape input) (at 99.06 43.18 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "1078db14-60d9-4ae1-896d-fdd9ae2d971a"))
+(wire (pts (xy 101.60 48.26) (xy 99.06 48.26)) (stroke (width 0) (type default)) (uuid "d3ca8cc5-fdd0-4acd-a268-f8e2bc8dade1"))
+(global_label "STEREO2-R-IN" (shape input) (at 99.06 48.26 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "e2475455-cdec-497e-905f-941eed4c5342"))
+(wire (pts (xy 101.60 45.72) (xy 99.06 45.72)) (stroke (width 0) (type default)) (uuid "845b84ea-1d64-4953-a164-28ac20f96a15"))
+(global_label "GNDD" (shape input) (at 99.06 45.72 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "90184173-0002-4089-8789-32193bfa9ed3"))
+(symbol (lib_id "Device:C_Polarized") (at 91.44000000000001 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "9d9aecdb-f00c-458a-b297-a6b036023d86")
+ (property "Reference" "C42" (at 94.44000000000001 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 94.44000000000001 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 91.44000000000001 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 91.44000000000001 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C42") (unit 1)))))
+(wire (pts (xy 91.44 72.39) (xy 88.90 72.39)) (stroke (width 0) (type default)) (uuid "5b13aece-dbf4-4a64-9c5a-a2ac0e455443"))
+(global_label "PT2L" (shape output) (at 88.90 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "ab5e67a5-2395-4517-acc9-048c6830b5bd"))
+(wire (pts (xy 91.44 80.01) (xy 88.90 80.01)) (stroke (width 0) (type default)) (uuid "0f6abf20-297d-48f6-b605-3a08bd36ed93"))
+(global_label "STEREO2-L-IN" (shape input) (at 88.90 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "51858c74-0b86-4f3e-929b-649823fa7c45"))
+(symbol (lib_id "Device:R") (at 99.06000000000002 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "d0b65097-7898-4acc-80e0-47b30e873896")
+ (property "Reference" "R48" (at 102.06000000000002 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 102.06000000000002 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 99.06000000000002 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 99.06000000000002 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R48") (unit 1)))))
+(wire (pts (xy 99.06 95.25) (xy 96.52 95.25)) (stroke (width 0) (type default)) (uuid "f6337bae-8726-449d-b130-25703d9fe1b9"))
+(global_label "STEREO2-L-IN" (shape input) (at 96.52 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "14a93c3f-cc80-43be-8bd3-a9e3092c9499"))
+(wire (pts (xy 99.06 102.87) (xy 96.52 102.87)) (stroke (width 0) (type default)) (uuid "f3492205-69eb-4c60-97b5-c5ecfc8342f1"))
+(global_label "GNDD" (shape input) (at 96.52 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "3dc5995d-93d7-4bcb-a764-1c6586738197"))
+(symbol (lib_id "Device:C_Polarized") (at 121.92000000000002 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e9a2e99c-f9c2-4f3a-a1cd-20d3001ecdfe")
+ (property "Reference" "C43" (at 124.92000000000002 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 124.92000000000002 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 121.92000000000002 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 121.92000000000002 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C43") (unit 1)))))
+(wire (pts (xy 121.92 72.39) (xy 119.38 72.39)) (stroke (width 0) (type default)) (uuid "b36174f6-8646-4e5c-9b18-40fc7730b6d8"))
+(global_label "PT2R" (shape output) (at 119.38 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "d5405539-6edd-43e0-b5cf-278c63d68119"))
+(wire (pts (xy 121.92 80.01) (xy 119.38 80.01)) (stroke (width 0) (type default)) (uuid "6aa6e968-ba15-4c50-94d0-c085c2294d70"))
+(global_label "STEREO2-R-IN" (shape input) (at 119.38 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "dffa5d52-aa9e-4408-9287-4de9f900fabb"))
+(symbol (lib_id "Device:R") (at 129.54000000000002 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "73c6a499-9ed7-47e7-bc93-5b53c7437025")
+ (property "Reference" "R49" (at 132.54000000000002 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 132.54000000000002 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129.54000000000002 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 129.54000000000002 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R49") (unit 1)))))
+(wire (pts (xy 129.54 95.25) (xy 127.00 95.25)) (stroke (width 0) (type default)) (uuid "de052283-67c2-4c6c-8fd4-b9a862c2e473"))
+(global_label "STEREO2-R-IN" (shape input) (at 127.00 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "7d8a5e5a-aa94-4c73-9a27-85fb1db7fbb2"))
+(wire (pts (xy 129.54 102.87) (xy 127.00 102.87)) (stroke (width 0) (type default)) (uuid "aba72ade-45bb-4b4b-aeea-261ebbc82c19"))
+(global_label "GNDD" (shape input) (at 127.00 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "9ee5dd27-691d-4b42-a8f9-49c980fb46f6"))
+(text "Stereo 3: pino 1=L, 2=GND, 3=R" (at 167.64 30 0) (effects (font (size 1.0 1.0))) (uuid "95618ef4-6a4b-4892-8122-b713447fbdde"))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 167.64 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1280321d-25d1-4aef-b4be-53bd46d600fa")
+ (property "Reference" "J9" (at 170.64 43.72 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "Stereo 3" (at 170.64 47.72 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 167.64 45.72 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 167.64 45.72 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "J9") (unit 1)))))
+(wire (pts (xy 162.56 43.18) (xy 160.02 43.18)) (stroke (width 0) (type default)) (uuid "99f866ca-3c3f-47f7-9d81-d20f43e3e2ae"))
+(global_label "STEREO3-L-IN" (shape input) (at 160.02 43.18 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "81012be7-214a-4dc7-909d-c0e18e886ce8"))
+(wire (pts (xy 162.56 48.26) (xy 160.02 48.26)) (stroke (width 0) (type default)) (uuid "c1c06387-c0d0-4fac-a00f-0241328d2ebd"))
+(global_label "STEREO3-R-IN" (shape input) (at 160.02 48.26 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "f7ec0202-49b4-4206-8401-9d1fe412efca"))
+(wire (pts (xy 162.56 45.72) (xy 160.02 45.72)) (stroke (width 0) (type default)) (uuid "fb545673-a4ee-4f55-af66-e2bc2ce6a3a1"))
+(global_label "GNDD" (shape input) (at 160.02 45.72 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "9face27a-abd2-4076-b66d-babffef23a6a"))
+(symbol (lib_id "Device:C_Polarized") (at 152.39999999999998 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "dc4c319b-f667-42f6-ab6f-89a201cf1ce2")
+ (property "Reference" "C44" (at 155.39999999999998 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 155.39999999999998 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 152.39999999999998 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 152.39999999999998 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C44") (unit 1)))))
+(wire (pts (xy 152.40 72.39) (xy 149.86 72.39)) (stroke (width 0) (type default)) (uuid "52a1bd8a-3ab0-431e-ba58-c0f821e6162d"))
+(global_label "PT3L" (shape output) (at 149.86 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "48933068-1d9f-48cb-86e9-8f03f80221dc"))
+(wire (pts (xy 152.40 80.01) (xy 149.86 80.01)) (stroke (width 0) (type default)) (uuid "134f46b1-f79d-4c60-8f63-7d241f9c3b29"))
+(global_label "STEREO3-L-IN" (shape input) (at 149.86 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "a39dd9d3-a115-4ad1-9668-438b5bce1962"))
+(symbol (lib_id "Device:R") (at 160.01999999999998 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "16d2c4ce-779f-45e5-b911-a404b07d5510")
+ (property "Reference" "R50" (at 163.01999999999998 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 163.01999999999998 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 160.01999999999998 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 160.01999999999998 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R50") (unit 1)))))
+(wire (pts (xy 160.02 95.25) (xy 157.48 95.25)) (stroke (width 0) (type default)) (uuid "bc38de16-ab8d-4ce6-ba7b-4f1a6ace4dc6"))
+(global_label "STEREO3-L-IN" (shape input) (at 157.48 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "4e532393-48b7-4caf-9ecb-0e26593d6da5"))
+(wire (pts (xy 160.02 102.87) (xy 157.48 102.87)) (stroke (width 0) (type default)) (uuid "03ec09f3-2060-498b-a545-d9447a64cf1d"))
+(global_label "GNDD" (shape input) (at 157.48 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "c3da45cc-ab1d-4c86-abfc-1df744ca69d1"))
+(symbol (lib_id "Device:C_Polarized") (at 182.87999999999997 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "df95ced9-9dde-467c-a542-4d08400a56b5")
+ (property "Reference" "C45" (at 185.87999999999997 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 185.87999999999997 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 182.87999999999997 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 182.87999999999997 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C45") (unit 1)))))
+(wire (pts (xy 182.88 72.39) (xy 180.34 72.39)) (stroke (width 0) (type default)) (uuid "f2d9294d-d7f2-46b1-bf49-aa5e653ef88e"))
+(global_label "PT3R" (shape output) (at 180.34 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "266f6b11-0351-42a4-a279-b42c229c5f26"))
+(wire (pts (xy 182.88 80.01) (xy 180.34 80.01)) (stroke (width 0) (type default)) (uuid "af3279a1-8e2d-4a7e-a6a6-7058587f7dd7"))
+(global_label "STEREO3-R-IN" (shape input) (at 180.34 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "22964a3d-576d-4896-be9b-3753de34bd21"))
+(symbol (lib_id "Device:R") (at 190.49999999999997 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "9548c411-a847-42de-9227-2864105f9a4a")
+ (property "Reference" "R51" (at 193.49999999999997 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 193.49999999999997 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 190.49999999999997 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 190.49999999999997 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R51") (unit 1)))))
+(wire (pts (xy 190.50 95.25) (xy 187.96 95.25)) (stroke (width 0) (type default)) (uuid "f855d04c-3479-4893-ba9b-3d58fb78598c"))
+(global_label "STEREO3-R-IN" (shape input) (at 187.96 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "ec746b50-d852-4e59-afa4-576d58aaefee"))
+(wire (pts (xy 190.50 102.87) (xy 187.96 102.87)) (stroke (width 0) (type default)) (uuid "3bbc5a9a-4660-4335-84c5-e99ca401d817"))
+(global_label "GNDD" (shape input) (at 187.96 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "deb092a7-0677-49dd-9841-8606f0398410"))
+(text "Stereo 4: pino 1=L, 2=GND, 3=R" (at 228.6 30 0) (effects (font (size 1.0 1.0))) (uuid "d4e61030-14ed-4f79-b5db-7ef562b0964b"))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 228.6 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ecc691d5-21f9-40fd-9d3c-6f8bdd557c5a")
+ (property "Reference" "J10" (at 231.6 43.72 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "Stereo 4" (at 231.6 47.72 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 228.6 45.72 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 228.6 45.72 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "J10") (unit 1)))))
+(wire (pts (xy 223.52 43.18) (xy 220.98 43.18)) (stroke (width 0) (type default)) (uuid "e93f1bbf-4bb9-422f-b6c5-3230cdd38958"))
+(global_label "STEREO4-L-IN" (shape input) (at 220.98 43.18 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "dbe06da7-9ec4-43f5-bbbb-1e56036d8b55"))
+(wire (pts (xy 223.52 48.26) (xy 220.98 48.26)) (stroke (width 0) (type default)) (uuid "bf0bb1da-ac5c-4dca-9002-0575e24da7a9"))
+(global_label "STEREO4-R-IN" (shape input) (at 220.98 48.26 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "15e558c1-4f33-46ca-b8d9-34d141326daa"))
+(wire (pts (xy 223.52 45.72) (xy 220.98 45.72)) (stroke (width 0) (type default)) (uuid "25740d43-ef45-42c0-bb19-93979378268d"))
+(global_label "GNDD" (shape input) (at 220.98 45.72 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "8df7ae9e-806a-48c5-a726-dae661a91b6e"))
+(symbol (lib_id "Device:C_Polarized") (at 213.35999999999999 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "71338c43-1a53-4c1d-81ad-f321751624b3")
+ (property "Reference" "C46" (at 216.35999999999999 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 216.35999999999999 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 213.35999999999999 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 213.35999999999999 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C46") (unit 1)))))
+(wire (pts (xy 213.36 72.39) (xy 210.82 72.39)) (stroke (width 0) (type default)) (uuid "999c166d-4e7b-4afb-9a63-0b4dce730937"))
+(global_label "PT4L" (shape output) (at 210.82 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "f129e555-c3db-420b-9cae-d7eadd4c772c"))
+(wire (pts (xy 213.36 80.01) (xy 210.82 80.01)) (stroke (width 0) (type default)) (uuid "4f911d97-217c-44c1-b6f5-3fa4f15f1eb4"))
+(global_label "STEREO4-L-IN" (shape input) (at 210.82 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "44b50e13-01f6-41d1-9d04-68aa0b304418"))
+(symbol (lib_id "Device:R") (at 220.98 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "76222ead-57ec-4400-9e17-fa2efe7bdb7c")
+ (property "Reference" "R52" (at 223.98 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 223.98 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 220.98 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 220.98 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R52") (unit 1)))))
+(wire (pts (xy 220.98 95.25) (xy 218.44 95.25)) (stroke (width 0) (type default)) (uuid "14e3c165-ef50-47fb-b8a8-ae66549de629"))
+(global_label "STEREO4-L-IN" (shape input) (at 218.44 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "bdc1c80b-7f63-4ce5-8cd0-040335dcc3f5"))
+(wire (pts (xy 220.98 102.87) (xy 218.44 102.87)) (stroke (width 0) (type default)) (uuid "0f1fefec-bfb3-43c1-b627-79d79eb2500a"))
+(global_label "GNDD" (shape input) (at 218.44 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "46f1308f-07ef-436e-b1d7-ea0baccf30c3"))
+(symbol (lib_id "Device:C_Polarized") (at 243.83999999999997 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "b66598ef-9256-4204-9076-476ac3b7585f")
+ (property "Reference" "C47" (at 246.83999999999997 74.2 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "10uF" (at 246.83999999999997 78.2 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4" (at 243.83999999999997 76.2 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 243.83999999999997 76.2 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "C47") (unit 1)))))
+(wire (pts (xy 243.84 72.39) (xy 241.30 72.39)) (stroke (width 0) (type default)) (uuid "2aa2fcfe-3870-4707-b7fa-7e2f8a1ebf78"))
+(global_label "PT4R" (shape output) (at 241.30 72.39 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "1d67a49a-1f09-4f78-94f0-59093eb93725"))
+(wire (pts (xy 243.84 80.01) (xy 241.30 80.01)) (stroke (width 0) (type default)) (uuid "6fc54d4e-c85d-4df5-aedd-754704564ac4"))
+(global_label "STEREO4-R-IN" (shape input) (at 241.30 80.01 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "c85f780e-9871-4999-b8e7-41226886707d"))
+(symbol (lib_id "Device:R") (at 251.45999999999998 99.06 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "11662602-b2b7-4dde-86b7-2c9af15c5c72")
+ (property "Reference" "R53" (at 254.45999999999998 97.06 0) (effects (font (size 1.0 1.0))))
+ (property "Value" "100k" (at 254.45999999999998 101.06 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 251.45999999999998 99.06 0) (effects (font (size 1 1)) hide))
+ (property "Datasheet" "" (at 251.45999999999998 99.06 0) (effects (font (size 1 1)) hide))
+ (instances (project "SabidosReceiver" (path "/ac327e59-bfb2-4343-b248-420c1a5897eb/1ecd04d1-c430-48ed-b59d-a6d7ea71a7a3" (reference "R53") (unit 1)))))
+(wire (pts (xy 251.46 95.25) (xy 248.92 95.25)) (stroke (width 0) (type default)) (uuid "ec4bd7c9-db18-4eb6-b8cc-d805945ae83d"))
+(global_label "STEREO4-R-IN" (shape input) (at 248.92 95.25 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "3b7646ad-bb9f-407f-bdb0-b774d22f275b"))
+(wire (pts (xy 251.46 102.87) (xy 248.92 102.87)) (stroke (width 0) (type default)) (uuid "206e6c94-be9b-486d-bfc1-05e1f377c53b"))
+(global_label "GNDD" (shape input) (at 248.92 102.87 0) (effects (font (size 0.85 0.85)) (justify right)) (uuid "fa6945de-337e-41c1-bacc-1b7eb253aff4"))
+(text "Capacitores: positivo voltado ao PT2323. Alimentacao analogica existente: +8V.
+PT2323: 0x4A (7 bits), I2C <=100kHz. Entradas 5.1 permanecem na folha principal.
+Footprints dos novos conectores e capacitores sao propostas; conferir componentes fisicos." (at 145 132 0) (effects (font (size 1.0 1.0))) (uuid "6b2f9b4b-83b2-4eee-8535-9d46e86cab08"))
+)
